@@ -21,7 +21,7 @@ $email_subject = "Website Contact Form:  $name";
 $contact_subject = "Glass Guard";
 $email_body = "You have received a new message from your website contact form.\n\n"."Here are the details:\n\nName: $name\n\nEmail: $email_address\n\nPhone: $phone\n\nMessage:\n$message";
 $contact_message = "Thank you for contacting Glass Guard. We will respond to your inquiry shortly.";
-$headers = "From: noreply@yourdomain.com\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
+$headers = "From: noreply@glass-guard.com\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
 $headers .= "Reply-To: $email_address";
 mail($to,$email_subject,$email_body,$headers);  // email to glass-guard
 mail($email,$contact_subject,$contact_message,$headers); // email to sender
