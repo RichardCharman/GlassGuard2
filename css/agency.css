@@ -13,6 +13,19 @@ body {
     color: #777;
 }
 
+.text-muted-large {
+  color: #f7941d;
+  font-size: 200%;
+  text-transform: uppercase;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+}
+
+.text-orange {
+    color: #f7941d;
+  font-size: 120%;
+}
+
 .text-primary {
     color: #f7941d;
 }
