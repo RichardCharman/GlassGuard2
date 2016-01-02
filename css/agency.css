@@ -132,7 +132,7 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-xl {
     padding: 20px 40px;
-    margin-bottom: 30px;
+    margin-top: 20px;
     border-color: #fed136;
     border-radius: 10px;
     text-transform: uppercase;
@@ -289,8 +289,8 @@ header {
 }
 
 header .intro-text {
-    padding-top: 100px;
-    padding-bottom: 50px;
+    padding-top: 300px;
+    padding-bottom: 200px;
     text-shadow: 0 0 8px #f7941d;
 }
 
@@ -303,17 +303,17 @@ header .intro-text .intro-lead-in {
 }
 
 header .intro-text .intro-heading {
-    margin-bottom: 25px;
+    margin-bottom: 10px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 50px;
+    font-size: 35px;
     font-weight: 700;
-    line-height: 50px;
+    line-height: 40px;
 }
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 100px;
+        padding-top: 300px;
         padding-bottom: 200px;
     }
 
@@ -325,10 +325,10 @@ header .intro-text .intro-heading {
     }
 
     header .intro-text .intro-heading {
-        margin-bottom: 15px;
+        margin-bottom: 10px;
         text-transform: uppercase;
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 50px;
+        font-size: 40px;
         font-weight: 700;
         line-height: 75px;
     }
